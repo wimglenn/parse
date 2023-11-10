@@ -280,7 +280,6 @@ class RepeatedNameError(ValueError):
 
 
 # note: {} are handled separately
-# note: I don't use r'' here because Sublime Text 2 syntax highlight has a fit
 REGEX_SAFETY = re.compile(r"([?\\\\.[\]()*+\^$!\|])")
 
 # allowed field types
